@@ -2,40 +2,6 @@ let cardContainer=document.getElementById("card");
 
 
 
-// fetch('https://fakestoreapi.com/products')
-// .then(response => response.json())
-// // .then(data => console.log(data));
-// .then((data) => {
-//     data.forEach (item)=>{
-//         cardContainer.innerHTML += 
-//         `
-//         <div class="card">
-//     <img src="${item.image}" alt="" width="100">
-//     <h2>${item.title}</h2>
-//     <p>${item.price}</p>
-// </div>
-//         `
-//     });
-// });
-
-
-// fetch('https://fakestoreapi.com/products')
-// .then(response => response.json())
-// .then((data) => {
-
-//     data.forEach((item) => {
-
-//         cardContainer.innerHTML += `
-//         <div class="card">
-//             <img src="${item.image}" alt="" width="100">
-//             <h2>${item.title}</h2>
-//             <p>${item.price}</p>
-//         </div>
-//         `;
-
-//     });
-
-// });
 
 fetch('https://fakestoreapi.com/products') 
 .then(response => response.json())
